@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+
+<title>sticky header</title>
+
+<style>
+	
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		font-family: optima;
+	}
+	
+
+	
+	#mbtn{
+		display: none;
+	}
+
+	header{
+		position: relative;
+		background: #333745;
+	}
+	
+	#logo{
+		padding: 5px 10px;
+	}
+	
+	#logo a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #C7EFCF;
+		font-weight: normal;
+		font-family: impact;
+		font-size: 46px;
+	}
+	
+	nav{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+	nav ul{
+		list-style: none;
+	}
+	
+	nav li{
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	nav a{
+		font-size: 20px;
+		padding: 10px;
+		border: 2px solid #C7EFCF;
+		text-decoration: none;
+		text-transform:lowercase;
+		display: block;
+		text-align: center;
+		color: #C7EFCF;
+		width: 150px;
+	}
+	
+</style>
+
+	
+</head>
+
+<body>
+	<!--navigation-->
+	<header>
+		<div id="logo">
+		<h1><a href="index.html">SAM</a>
+			</h1>
+		</div>
+		<button id="mbtn">&#9776;</button>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="index.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+</body>
+
+</html>
